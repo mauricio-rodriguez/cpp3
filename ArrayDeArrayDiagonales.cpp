@@ -29,16 +29,21 @@ void hallarMenor(int array[][nColumnas]){
 void imprimirDiagonal(int array[][nColumnas]){
     cout<<"Diagonal: ";
     for(int i=0;i<nFilas;i++){
-        for (int j=0;j<nColumnas;j+=8){
-            cout<<array[i][j]<<"  ";
+        cout<<array[i][i]<<endl;
         }
-        cout<<endl;
     }
-}
+
 void imprimirDiagonalSuperior(int array[][nColumnas]){
     cout<<"Diagonal superior: ";
     for(int i=0;i<nFilas-1;i++){
-        for (int j=1;j<nColumnas;j+=8){
+            cout<<array[i][i+1];
+        cout<<endl;
+    }
+}
+void imprimirArray(int array[][nColumnas]){
+    cout<<"Array: "<<endl;
+    for(int i=0;i<nFilas;i++){
+        for (int j=0;j<nColumnas;j++){
             cout<<array[i][j]<<"  ";
         }
         cout<<endl;
@@ -50,7 +55,9 @@ int main()
     size array[nFilas][nColumnas];
     llenarArray(array);
     hallarMenor(array);
+    imprimirArray(array);
     imprimirDiagonal(array);
     imprimirDiagonalSuperior(array);
 
 }
+
