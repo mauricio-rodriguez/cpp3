@@ -1,0 +1,3 @@
+C:/Users/mauri/CLionProjects/Proyecto2Atttempt2/cmake-build-debug/CMakeFiles/Proyecto2Atttempt2.dir
+C:/Users/mauri/CLionProjects/Proyecto2Atttempt2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mauri/CLionProjects/Proyecto2Atttempt2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
